@@ -1,0 +1,24 @@
+get http://localhost:3000/states
+###
+ 
+get http://localhost:3000/states/10
+
+###
+post http://localhost:3000/districts
+
+
+// API 4: Get district by ID
+get http://localhost:3000/districts/4/
+
+// API 5 delete district by ID
+delete http://localhost:3000/districts/8/
+
+// API 6 put district by ID
+put http://localhost:3000/districts/8/
+
+// API 7 Get statistics of a state
+get http://localhost:3000/states/7/stats/
+
+// API 8: Get state name of a district
+get http://localhost:3000/districts/6/details/
+
